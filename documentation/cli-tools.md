@@ -21,7 +21,7 @@ $ /Applications/Postgres.app/Contents/Versions/9.3/bin/psql -h localhost
 ... but this is slightly inconvenient. It's better to add the bin directory to your path. Just add a line like the following to `.bash_profile`:
 
 ```bash
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
+export PATH=$PATH:/Applications/Postgres.app/Contents/MacOS/bin
 ```
 
 If you're using the fish shell, add the following to your `config.fish` (normally located at `~/.config/fish/config.fish`):
